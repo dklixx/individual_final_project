@@ -356,30 +356,16 @@ footer {
 
 .footer_nav {
   display: grid;
-  grid-template-columns: repeat(3, 1fr); /* Создание 3 столбцов */
-  align-items: center; /* Выравнивание элементов по вертикали по центру */
+  grid-template-columns: repeat(3, 1fr); 
+  align-items: center; 
 }
 
 .contacts_footer {
-  grid-column: 3; /* Помещение элемента в третий столбец */
-  justify-self: end; /* Выравнивание элемента по горизонтали в конце столбца */
+  grid-column: 3; 
+  justify-self: end; 
   margin-top: 50px;
   margin-right: 200px;
 }
-
-/* .number {
-  color: var(--color-gray);
-  font-family: var(--font-lato);
-  font-size: 25px;
-  position: absolute;
-
-}
-
-.e-mail {
-  color: var(--color-gray);
-  font-family: var(--font-lato);
-  font-size: 25px;
-} */
 
 .line {
   display: inline;
@@ -393,6 +379,5 @@ input {
   border-radius: var(--br-9xs);
   height: 25px;
   border: solid 1px var(--color-seagreen-100);
-
 }
 
