@@ -327,7 +327,7 @@ margin-left: 140px;
 }
 
 .h2_footer {
-margin-top: 60px;
+margin-top: -120px;
 position: absolute;
 }
 
@@ -349,3 +349,50 @@ color: var(--color-seagreen-100);
 margin-bottom: 20px;
 transition: 1s;
 }
+
+footer {
+  display: grid;
+}
+
+.footer_nav {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr); /* Создание 3 столбцов */
+  align-items: center; /* Выравнивание элементов по вертикали по центру */
+}
+
+.contacts_footer {
+  grid-column: 3; /* Помещение элемента в третий столбец */
+  justify-self: end; /* Выравнивание элемента по горизонтали в конце столбца */
+  margin-top: 50px;
+  margin-right: 200px;
+}
+
+/* .number {
+  color: var(--color-gray);
+  font-family: var(--font-lato);
+  font-size: 25px;
+  position: absolute;
+
+}
+
+.e-mail {
+  color: var(--color-gray);
+  font-family: var(--font-lato);
+  font-size: 25px;
+} */
+
+.line {
+  display: inline;
+  color: var(--color-seagreen-100);
+  font-family: var(--font-lato);
+}
+
+input {
+  width: 100%;
+  margin-bottom: 20px;
+  border-radius: var(--br-9xs);
+  height: 25px;
+  border: solid 1px var(--color-seagreen-100);
+
+}
+
