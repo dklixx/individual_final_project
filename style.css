@@ -381,3 +381,264 @@ input {
   border: solid 1px var(--color-seagreen-100);
 }
 
+
+@media only screen and (max-width: 767px) {
+
+  button {
+    font-size: 10px;
+    padding: 15px;
+  }
+
+  .nav_links {
+    display: none; 
+  }
+
+  header {
+    height: 250px;
+    padding: 30px 0; 
+  }
+
+  .header_text h1 {
+    font-size: 30px; 
+    margin-top: -5px;
+  }
+
+  .header_p {
+    display: none;
+  }
+
+  button #header_button {
+    margin-top: 90px;
+    padding: 15px -1px;
+  }
+
+  main h2 {
+    font-size: 20px; 
+    margin-top: 50px; 
+  }
+
+  main h1 {
+    font-size: 24px; 
+    width: auto; 
+    margin-top: 5px; 
+  }
+
+  aside p {
+    font-size: 12px;
+    width: auto;
+    margin-top: 15px; 
+    margin-left: 30px;
+  }
+
+
+  .cards {
+    display: flex;
+    flex-direction: column; 
+    text-align: center;
+    margin-left: 20px;
+    margin-right: 20px; 
+  }
+
+  .numbers {
+    font-size: 80px; 
+    margin-top: 10px; 
+  }
+
+  h3 {
+    font-size: 24px; 
+    top: -60px; 
+    margin-left: 0; 
+  }
+
+  p {
+    font-size: 16px; 
+    width: 100%;
+    margin-top: 10px; 
+  }
+
+  .img_section {
+    width: 100%; 
+    height: auto;
+    border-radius: 0;
+    margin-top: 10px; 
+    border-radius: var(--br-xs);
+  }
+
+  .one_three,
+  .two_three {
+    margin-top: 20px; 
+  }
+
+  .container {
+    height: auto;
+    text-align: center;
+  }
+
+  .about_h1,
+  .about_h2 {
+    margin: 30px;
+    text-align: center;
+    position: static;
+    width: auto;
+    font-size: 15px;
+    font-family: var(--font-lato);
+    -webkit-text-stroke: 0.1px var(--color-seagreen-100);
+  }
+
+  .img_to_youtube {
+    width: 100%;
+    margin: 20px 0;
+  }
+
+  .button_about {
+    margin: 20px;
+    height: 40px;
+  
+  }
+
+  .control {
+    margin: 20px auto;
+    float: none;
+    margin-top: -240px;
+  }
+
+  .footer_nav {
+    height: 600px; 
+    width: 319px;
+    grid-template-columns: repeat(1); 
+    padding: 20px; 
+  }
+
+  .footer_nav_alivio {
+    display: none;
+  }
+
+  .footer_info {
+    text-align: center; 
+    margin-bottom: 20px; 
+    margin-top: -400px;
+    margin-left: 10px;
+    width: 300px;
+  }
+
+  .footer_nav_ul {
+    text-align: center; 
+    margin: 0; 
+    padding: 0; 
+    list-style-type: none; 
+    margin-left: 110px;
+    margin-top: -300px;
+    font-size: 20px;
+    line-height: 40px;
+  }
+
+  .footer_nav_ul li {
+    margin: 0; 
+  }
+
+  .contacts_footer {
+    justify-self: center; 
+    margin: 0;
+    margin-top: 100px;
+    margin-left: -300px;
+  }
+
+  .line {
+    display: block; 
+    text-align: center; 
+    margin-bottom: 10px; 
+  }
+
+  input {
+    width: calc(100% - 20px); 
+    margin: 0 auto; 
+    display: block; 
+    margin-bottom: 15px;
+  }
+
+  .button_footer {
+    width: 80%;
+    margin-top: 10px;
+    margin-left: 16px;
+  }
+}
+
+
+@media only screen and (min-width: 768px) and (max-width: 1023px) {
+  .nav_links {
+    display: none; 
+  }
+
+  header {
+    height: 300px;
+    padding: 150px 0; 
+  }
+
+  .header_text h1 {
+    font-size: 50px; 
+  }
+
+  .header_p {
+    width: 300px; 
+    height: auto; 
+    font-size: 16px;
+  }
+
+  #header_button {
+    margin-top: 80px;
+  }
+
+  main h2 {
+    margin-top: 80px; 
+    font-size: 24px; 
+  }
+
+  main h1 {
+    font-size: 40px; 
+    width: 80%; 
+  }
+
+  aside p {
+    width: 90%; 
+    font-size: 14px; 
+    margin-top: -100px; 
+  }
+
+  .numbers {
+    font-size: 70px;
+  }
+
+  h3 {
+    font-size: 22px;
+    top: -40px;
+  }
+
+  p {
+    font-size: 15px;
+    margin-top: -18px;
+  }
+
+  .about_h1 {
+    font-size: 35px;
+    margin: 40px;
+  }
+
+  .about_h2 {
+    font-size: 18px;
+    margin: 20px;
+  }
+
+  .button_about {
+    margin: 30px;
+  }
+
+  .img_to_youtube {
+    width: 100%;
+    margin: 20px 0;
+  }
+
+  .control {
+    margin: 30px auto;
+    float: none;
+  }
+}
