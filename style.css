@@ -499,12 +499,11 @@ input {
   .control {
     margin: 20px auto;
     float: none;
-    margin-top: -240px;
+    margin-top: -320px;
   }
 
   .footer_nav {
     height: 600px; 
-    width: 319px;
     grid-template-columns: repeat(1); 
     padding: 20px; 
   }
@@ -517,7 +516,7 @@ input {
     text-align: center; 
     margin-bottom: 20px; 
     margin-top: -400px;
-    margin-left: 10px;
+    margin-left: 80px;
     width: 300px;
   }
 
@@ -526,7 +525,7 @@ input {
     margin: 0; 
     padding: 0; 
     list-style-type: none; 
-    margin-left: 110px;
+    margin-left: 170px;
     margin-top: -300px;
     font-size: 20px;
     line-height: 40px;
@@ -539,8 +538,8 @@ input {
   .contacts_footer {
     justify-self: center; 
     margin: 0;
-    margin-top: 100px;
-    margin-left: -300px;
+    margin-top: 150px;
+    margin-left: -400px;
   }
 
   .line {
